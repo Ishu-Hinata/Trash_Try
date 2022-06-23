@@ -23,7 +23,7 @@ bot = Client("nandhabot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 
 buttons = [[
-            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+
             InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_back"),
            ],[
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"),
