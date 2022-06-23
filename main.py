@@ -81,17 +81,14 @@ async def helpback(_, query: CallbackQuery):
                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about_back")]]))
 
 ABOUT_TEXT = """
-**Hello Dear Users!**
-`I'm A Neko Themed Telegram Bot Using Nekos.best! `
-
-My Pyroversion: {}
-My updates : [Nandhabots](https://t.me/nandhabots)
-My support : [NandhaSupport](https://t.me/nandhasupport)
-
-[Source](https://github.com/ctzfamily/neko-best-bot) ✨
-
-My All Credits fosto:
-[Nandha](https://t.me/nandhaxd) |  [AASF](https://t.me/pro_x_d)
+╔═════(༻❛☉❟༺)═════╗
+╟𝙑𝙚𝙧𝙨𝙞𝙤𝙣⌱ 7.D3
+╟𝙈𝙖𝙙𝙚 𝙗𝙮⌱『𝓛𝓸𝓻𝓭 𝕯𝕾𝕻 𝟑 』
+╟𓆩⌬𓆪 𝙐𝘾𝙊⌱ @A_inviteLink
+╟𝙀𝙧𝙧𝙤𝙧? ⌱ @UCO404bot
+╟𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩 ⌱ @C2_Probot
+╟𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩 ⌱ @Schwi_Musicbot
+╚═════(༻❛☉❟༺)═════╝
 """
 
 @bot.on_callback_query(filters.regex("about_back"))
