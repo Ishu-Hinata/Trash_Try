@@ -23,12 +23,17 @@ bot = Client("nandhabot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 
 buttons = [
-[
-            InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_back"),
-           ],
-[
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"),
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES}")]]
+    [
+        InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_back"),
+    ],
+    [
+        InlineKeyboardButton("Onii Chan", url=f"https://t.me/Lord_DSP_3"),
+        InlineKeyboardButton("Schwi𝄞", url=f"https://t.me/Schwi_Musicbot"),
+    ],
+    [
+        InlineKeyboardButton("ANIME CHAT ?", url=f"https://t.me/+LuNfF7pzIggyNWE1"),
+    ],
+ ]
 
 PM_START_TEXT = """Hey there!
 I'm Izumi Sagiri 💞
