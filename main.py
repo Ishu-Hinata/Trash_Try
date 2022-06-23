@@ -29,10 +29,12 @@ buttons = [[
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT}"),
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES}")]]
 
-PM_START_TEXT = """
-**Welcome** {}~kun ฅ(≈>ܫ<≈)
-`I'm A Neko Themed Telegram Bot Using Nekos.best! `
-**Make Your Groups Active By Adding Me There! ××**
+PM_START_TEXT = """Hey there!
+I'm Izumi Sagiri 💞
+
+I only for 𓆩⌬𓆪 UCO
+@UNITED_COMMUNITY_OF_OTAKUS 
+⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄
 """
 
 @bot.on_message(filters.command(["start","help"]))
