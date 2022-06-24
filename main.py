@@ -38,7 +38,7 @@ buttons = [
 PM_START_TEXT = """Hey there!
 I'm Izumi Sagiri 💞
 
-I only for 𓆩⌬𓆪 UCO
+I only work for 𓆩⌬𓆪 UCO
 @UNITED_COMMUNITY_OF_OTAKUS 
 ⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄
 """
