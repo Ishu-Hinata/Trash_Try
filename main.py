@@ -99,27 +99,28 @@ async def about(_, query: CallbackQuery):
                 InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help_back")]]))
 
 MORE_HELP_TEXT = """
-**Anime themed SFW:**
-• Think : /think To Makes A Person Think
-• Bored : /bored To Makes A Person Bored
-• Pout : /pout To Makes A Person Pout
-• Highfive : /highfive To Highfive A Person
-• Happy : /happy To Makes A Person Happy
-• Wave : /wave To Wave A Person
-• Facepalm : /facepalm To Makes A Person Facepalm
-• Wink : /wink To Makes A Person Wink
-• Smug : /smug To Makes A Person Smug
-• Thumbsup : /thumbsup To Thumbsup A Person
-• Stare : /stare To Makes A Person Stare
-• Dance : /dance To Makes A Person Dance
-• Smile : /smile To Makes A Person Smile
-• Shrug : /shrug To Shrug A Person
-• Blush : /blush To Makes A Person Blush
-• Cute : /cute To Say Me Cute
-• Waifu : /waifu To Send Random Waifu Image
-• Kitsune : /kitsune To Send Random Kitsune Image
-• Sleep : /sleep To Say I Am Going To Sleep
-• Neko : /neko To Get Random Neko quotes
+**Try and know <(￣︶￣)↗**
+
+❣️ /pout :  To Makes A Person Pout
+❣️ /wink :  To Makes A Person Wink
+❣️ /smug :  To Makes A Person Smug
+❣️ /happy : To Makes A Person Happy
+❣️ /smile : To Makes A Person Smile
+❣️ /blush : To Makes A Person Blush
+❣️ /think : To Makes A Person Think
+❣️ /bored : To Makes A Person Bored
+❣️ /stare : To Makes A Person Stare
+❣️ /dance : To Makes A Person Dance
+☁️ /cute :  To Say Me Cute
+☁️ /wave :  To Wave A Person
+☁️ /shrug : To Shrug A Person
+☁️ /sleep : To Show you're sleepy
+🎈 /highfive : To Highfive A Person
+🎈 /thumbsup : To Thumbsup A Person
+🎈 /facepalm : To Makes A Person Facepalm
+🎈 /neko : To Get Random Neko quotes
+🎈 /waifu : To Send Random Waifu Image
+🎈 /kitsune : To Send Random Kitsune Image
 """
 @bot.on_callback_query(filters.regex("more_help_text"))
 async def helpmore(_, query: CallbackQuery):
