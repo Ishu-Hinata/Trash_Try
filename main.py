@@ -58,15 +58,15 @@ HELP_TEXT = """
 💓 /pat : To Pat A Person
 💓 /hug : To Hug A Person
 💓 /kiss : To Kiss A Person
-💓 /Slap : To Slap A Person
-💓 /Feed : To Feed A Person
-💓 /Bite : To Bite A Person
-💓 /Poke : To Poke A Person
-💓 /Cry : Shows you Cried
-💓 /Laugh : Shows you're Laughing
-💓 /Tickle : To Tickle A Person
-💓 /Cuddle : To Cuddle A Person
-💓 /Baka : To Say A Person Baka
+💓 /slap : To Slap A Person
+💓 /feed : To Feed A Person
+💓 /bite : To Bite A Person
+💓 /poke : To Poke A Person
+💓 /cry : Shows you Cried
+💓 /laugh : Shows you're Laughing
+💓 /tickle : To Tickle A Person
+💓 /cuddle : To Cuddle A Person
+💓 /baka : To Say A Person Baka
 
 **Hit the More button below to explore more Cammands ^_^**
 """
