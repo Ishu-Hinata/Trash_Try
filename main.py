@@ -54,22 +54,21 @@ async def start(_, m):
 
 HELP_TEXT = """
 **Anime Themed SFW:**
-• Kiss : /kiss To Kiss A Person
-• Highfive : /highfive To Highfive A Person
-• Happy : /happy To Makes A Person Happy
-• Laugh : /laugh To Makes A Person Laugh
-• Bite : /bite To Bite A Person
-• Poke : /poke To Poke A Person
-• Tickle : /tickle To Tickle A Person
-• Wave : /wave To Wave A Person
-• Thumbsup : /thumbsup To Thumbsup A Person
-• Stare : /stare To Makes A Person Stare
-• Cuddle : /cuddle To Cuddle A Person
-• Smile : /smile To Makes A Person Smile
-• Baka : /baka To Say A Person Baka
-• Blush : /blush To Makes A Person Blush
 
-• **Message as to Lang below click the more button know more commandslist!**
+💓 /Pat : To Pat A Person
+💓 /Hug : To Hug A Person
+💓 /Kiss : To Kiss A Person
+💓 /Slap : To Slap A Person
+💓 /Feed : To Feed A Person
+💓 /Bite : To Bite A Person
+💓 /Poke : To Poke A Person
+💓 /Cry : Shows you Cried
+💓 /Laugh : Shows you're Laughing
+💓 /Tickle : To Tickle A Person
+💓 /Cuddle : To Cuddle A Person
+💓 /Baka : To Say A Person Baka
+
+**Hit the More button below to explore more Cammands ^_^**
 """
 
 @bot.on_callback_query(filters.regex("help_back"))
@@ -102,18 +101,20 @@ async def about(_, query: CallbackQuery):
 MORE_HELP_TEXT = """
 **Anime themed SFW:**
 • Think : /think To Makes A Person Think
+• Bored : /bored To Makes A Person Bored
 • Pout : /pout To Makes A Person Pout
+• Highfive : /highfive To Highfive A Person
+• Happy : /happy To Makes A Person Happy
+• Wave : /wave To Wave A Person
 • Facepalm : /facepalm To Makes A Person Facepalm
 • Wink : /wink To Makes A Person Wink
 • Smug : /smug To Makes A Person Smug
-• Cry : /cry To Makes A Person Cry
+• Thumbsup : /thumbsup To Thumbsup A Person
+• Stare : /stare To Makes A Person Stare
 • Dance : /dance To Makes A Person Dance
-• Feed : /feed To Feed A Person
+• Smile : /smile To Makes A Person Smile
 • Shrug : /shrug To Shrug A Person
-• Bored : /bored To Makes A Person Bored
-• Pat : /pat To Pat A Person
-• Hug : /hug To Hug A Person
-• Slap : /slap To Slap A Person
+• Blush : /blush To Makes A Person Blush
 • Cute : /cute To Say Me Cute
 • Waifu : /waifu To Send Random Waifu Image
 • Kitsune : /kitsune To Send Random Kitsune Image
