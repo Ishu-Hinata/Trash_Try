@@ -55,9 +55,9 @@ async def start(_, m):
 HELP_TEXT = """
 **Anime Themed SFW:**
 
-💓 /Pat : To Pat A Person
-💓 /Hug : To Hug A Person
-💓 /Kiss : To Kiss A Person
+💓 /pat : To Pat A Person
+💓 /hug : To Hug A Person
+💓 /kiss : To Kiss A Person
 💓 /Slap : To Slap A Person
 💓 /Feed : To Feed A Person
 💓 /Bite : To Bite A Person
@@ -75,12 +75,15 @@ HELP_TEXT = """
 async def helpback(_, query: CallbackQuery):
            query = query.message
            await query.edit_caption(HELP_TEXT,
-             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴍᴏʀᴇ", callback_data="more_help_text"),
-                InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about_back")]],
+             reply_markup=InlineKeyboardMarkup(
+    [
+        InlineKeyboardButton("ᴍᴏʀᴇ", callback_data="more_help_text"),
+        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about_back"),
+    ],
     [
         InlineKeyboardButton("Onii Chan", url=f"https://t.me/Lord_DSP_3"),
-    ]))
+    ],
+))
 
 ABOUT_TEXT = """
 ╔═════(༻❛☉❟༺)═════╗
