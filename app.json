@@ -11,27 +11,27 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
-            "value": ""
+            "value": "5457924386:AAFGGVm6kEc9Q9p-ZT-3LPW43GAHu43ZLvk"
         },
         "API_ID": {
             "description": "Your API_ID from https://my.telegram.org",
-            "value": ""
+            "value": "9850297"
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org",          
-            "value": ""
+            "value": "4e431723b5a68372db0e35a5486bd2fc"
         },
         "BOT_USERNAME": {
              "description": "Your bot username without @",
-             "value": ""
+             "value": "Sagiri_izumi_Robot"
         },
         "SUPPORT": {
              "description": "Your SupportChat username without @",
-             "value": "nandhasupport"
+             "value": "Anime_Gaming_Chat_Global"
        },
         "UPDATES": {
               "description": "Your UpdatesChannel username without @",
-              "value": "nandhabots"
+              "value": "Anime_Hub_Fz"
        }
     },
     "buildpacks": [
