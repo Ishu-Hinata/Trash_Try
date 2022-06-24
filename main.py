@@ -77,7 +77,7 @@ async def helpback(_, query: CallbackQuery):
            await query.edit_caption(HELP_TEXT,
              reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ᴍᴏʀᴇ❓", callback_data="more_help_text"),
-                InlineKeyboardButton("Back↩️", callback_data="start")]]))
+                InlineKeyboardButton("Back↩️", callback_data="help_back")]]))
 
 
 ABOUT_TEXT = """
