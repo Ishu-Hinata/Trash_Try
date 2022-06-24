@@ -43,7 +43,7 @@ I only work for 𓆩⌬𓆪 UCO
 ⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄
 """
 
-@bot.on_message(filters.command(["start","help"]))
+@bot.on_message(filters.command(["start","help"])& filters.private)
 async def start(_, m):
        url = "https://nekos.best/api/v2/neko"
        r = requests.get(url)
