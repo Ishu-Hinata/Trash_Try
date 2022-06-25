@@ -810,7 +810,7 @@ def neko(_, message):
         ke.format(name)
     )
 
-@app.on_message(filters.command(["ping"])) 
+@bot.on_message(filters.command(["ping"])) 
 async def ping(_, message: Message):
     image = random.choice(RANDOM)
     await message.reply_photo(photo=image, caption=f"💖🤍{pyro}🤍💖")
