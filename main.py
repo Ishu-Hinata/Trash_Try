@@ -225,8 +225,8 @@ async def kiss(_, message):
        r = requests.get(url)
        e = r.json()
        kissme = e["results"][0]["url"]
-       name1 = message.from_user.first_name + " " + message.from_user.last_name
-       name2 = message.from_user.first_name + " " + message.from_user.last_name
+       name1 = message.from_user.mention
+       name2 = message.reply_to_message.from_user.mention
        await message.reply_to_message.reply_video(kissme, caption="*{} kisses {}*~".format(name1, name2))
        return
     else:
