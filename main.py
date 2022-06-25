@@ -198,11 +198,11 @@ async def helpmore(_, query: CallbackQuery):
 
 
 OWO = (
-    "*Neko pats {} on the head.",
+    "*Izumi pats {} on the head.",
     "*gently rubs {}'s head*.",
-    "*Neko mofumofus {}'s head*",
-    "*Neko messes up {}'s head*",
-    "*Neko intensly rubs {}'s head*",
+    "*Izumi mofumofus {}'s head*",
+    "*Izumi messes up {}'s head*",
+    "*Izumi intensly rubs {}'s head*",
     "*{}'s waifu pats their head*",
     "*{}'s got free headpats*",
     "No pats for {}!",
