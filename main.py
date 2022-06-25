@@ -814,6 +814,22 @@ def neko(_, message):
 async def ping(_, message: Message):
     image = random.choice(RANDOM)
     await message.reply_photo(photo=image, caption=f"💖🤍92.935 ms🤍💖")
+
+@bot.on_message(filters.command(["owo", "uwu"])& filters.group)
+async def on_start(_, message: Message):
+    upl = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text="🤍 Help Section 🤍",
+                    url=f"https://t.me/Sagiri_izumi_Robot?start=help",
+                ),
+            ]
+        ]
+    )
+    image = random.choice(RANDOM)
+    send = await message.reply_photo(image, caption=f"Start me in DM.", reply_markup=upl)
+
     
 bot.run()
 with bot:
