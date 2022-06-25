@@ -78,10 +78,6 @@ RANDOM = [
 
 @bot.on_message(filters.command(["start","help"])& filters.private)
 async def start(_, m):
-       url = "https://nekos.best/api/v2/neko"
-       r = requests.get(url)
-       e = r.json()
-       NEKO_IMG = e["results"][0]["url"]
        await m.reply_photo(photo=NEKO_IMG,caption=PM_START_TEXT.format(m.from_user.mention),
              reply_markup=InlineKeyboardMarkup(buttons))
 
