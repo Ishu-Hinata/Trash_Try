@@ -812,7 +812,8 @@ def neko(_, message):
 
 @app.on_message(filters.command(["start"])& filters.private) 
 async def on_start(_, message: Message):
-    await message.reply_photo(photo="https://telegra.ph/file/df56751076ab5525b6d61.jpg")
+    image = random.choice(RANDOM)
+    await message.reply_photo(photo=image)
     
 bot.run()
 with bot:
