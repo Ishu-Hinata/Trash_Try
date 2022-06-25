@@ -78,7 +78,8 @@ RANDOM = [
 
 @bot.on_message(filters.command(["start","help"])& filters.private)
 async def start(_, m):
-       await m.reply_photo(photo=NEKO_IMG,caption=PM_START_TEXT.format(m.from_user.mention),
+       image = random.choice(RANDOM)
+       await m.reply_photo(photo=image, caption=PM_START_TEXT.format(m.from_user.mention),
              reply_markup=InlineKeyboardMarkup(buttons))
 
 HELP_TEXT = """
