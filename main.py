@@ -804,11 +804,15 @@ def sleep(_, message):
 
 @bot.on_message(filters.command("neko")& filters.group)
 def neko(_, message):
+    url = "https://nekos.best/api/v2/neko"
+    r = requests.get(url)
+    e = r.json()
+    NEKO_IMG = e["results"][0]["url"]
     name = message.from_user.mention
     ke = random.choice(neko_text)
-    message.reply_text(
-        ke.format(name)
-    )
+    message.reply_photo(photo=NEKO_IMG, caption=ke.format(name))
+
+
 
 @bot.on_message(filters.command(["ping"])) 
 async def ping(_, message: Message):
