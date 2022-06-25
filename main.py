@@ -514,7 +514,7 @@ async def pout(_, message):
        poutme = e["results"][0]["url"]
        name1 = message.from_user.mention
        name2 = message.reply_to_message.from_user.mention
-       await message.reply_to_message.reply_video(poutme, caption="{}  pouts  {}".format(name1, name2))
+       await message.reply_to_message.reply_video(poutme, caption="{}  pouts to {}".format(name1, name2))
        return
     else:
       url = "https://nekos.best/api/v2/pout"
