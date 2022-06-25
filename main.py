@@ -45,8 +45,8 @@ I only work for 𓆩⌬𓆪 UCO
 
 RANDOM = [
     "https://telegra.ph/file/ae3cef2e017f42d7e1a68.jpg",
-"https://telegra.ph/file/75dc19a42641f145ed17d.jpg",
-"https://telegra.ph/file/8ab286d88face56230dc2.jpg",
+    "https://telegra.ph/file/75dc19a42641f145ed17d.jpg",
+    "https://telegra.ph/file/8ab286d88face56230dc2.jpg",
 "https://telegra.ph/file/f5c0ff5e049e6d6f08ba5.jpg",
 "https://telegra.ph/file/e03ebae8b3141206b8155.jpg",
 "https://telegra.ph/file/9ebcc67b6f725e74c0db2.jpg",
