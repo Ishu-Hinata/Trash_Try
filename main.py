@@ -793,7 +793,7 @@ def sleep(_, message):
 
     if sleep_type == "Video":
         try:
-            bed = "https://telegra.ph/file/f0fb71c72e059de34b565.mp4"
+            bed = "https://telegra.ph/file/0263c22ac828d68174465.mp4"
             message.reply_video(bed)
         except BadRequest:
             sleep_type = "Text"
