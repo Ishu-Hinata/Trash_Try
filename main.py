@@ -715,7 +715,7 @@ def hug(_, message):
        hugme = e["results"][0]["url"]
        
        name1 = message.from_user.mention
-       name2 = message.reply_to_message.mention
+       name2 = message.reply_to_message.from_user.mention
        message.reply_to_message.reply_video(hugme, caption="{}  hugs  {}".format(name1, name2))
     else:
        url = "https://nekos.best/api/v2/hug"
