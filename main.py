@@ -810,6 +810,20 @@ def neko(_, message):
         ke.format(name)
     )
 
+@app.on_message(filters.command(["start"])& filters.private) 
+
+async def on_start(_, message: Message):
+
+    await message.reply_text(
+
+        f"Pretty Much Nothing For Normies..."
+
+    )
+
+    return await message.reply_photo(photo="https://telegra.ph/file/df56751076ab5525b6d61.jpg")
+
+
+    
 bot.run()
 with bot:
          bot.send_message(f"@{SUPPORT}", f"Hello there I'm Online!\nPyroVersion: {pyro}")
