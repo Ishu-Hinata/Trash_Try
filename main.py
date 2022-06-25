@@ -815,7 +815,7 @@ async def ping(_, message: Message):
     image = random.choice(RANDOM)
     await message.reply_photo(photo=image, caption=f"💖🤍92.935 ms🤍💖")
 
-@bot.on_message(filters.command(["owo", "uwu"])& filters.group)
+@bot.on_message(filters.command(["start"])& filters.group)
 async def on_start(_, message: Message):
     upl = InlineKeyboardMarkup(
         [
