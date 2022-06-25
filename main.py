@@ -835,9 +835,9 @@ def get_readable_time(seconds: int) -> str:
 
 @bot.on_message(filters.command(["ping"])) 
 async def ping(_, message: Message):
+    boot = time.time()
     bot_uptime = int(time.time() - boot)
     Uptime = get_readable_time(bot_uptime)
-    boot = time.time()
     image = random.choice(RANDOM)
     await message.reply_photo(photo=image, caption=f"💖🤍{uptime}🤍💖")
     
