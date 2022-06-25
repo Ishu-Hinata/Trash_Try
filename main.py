@@ -812,6 +812,9 @@ def neko(_, message):
 
 @app.on_message(filters.command(["ping"])) 
 async def ping(_, message: Message):
+        bot_uptime = int(time.time() - boot)
+
+    Uptime = get_readable_time(bot_uptime)
     image = random.choice(RANDOM)
     await message.reply_photo(photo=image, caption=f"💖🤍{pyro}🤍💖)
     
