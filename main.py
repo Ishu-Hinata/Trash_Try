@@ -189,27 +189,28 @@ async def about(_, query: CallbackQuery):
 MORE_HELP_TEXT = """
 **Try and know <(￣︶￣)↗**
 
-❣️ /pout :  To Makes A Person Pout
-❣️ /wink :  To Makes A Person Wink
-❣️ /smug :  To Makes A Person Smug
-❣️ /happy : To Makes A Person Happy
-❣️ /smile : To Makes A Person Smile
-❣️ /blush : To Makes A Person Blush
-❣️ /think : To Makes A Person Think
-❣️ /bored : To Makes A Person Bored
-❣️ /stare : To Makes A Person Stare
-❣️ /dance : To Makes A Person Dance
-☁️ /cute :  To Say Me Cute
-☁️ /wave :  To Wave A Person
-☁️ /shrug : To Shrug A Person
-☁️ /sleep : To Show you're sleepy
-🎈 /highfive : To Highfive A Person
-🎈 /thumbsup : To Thumbsup A Person
-🎈 /facepalm : To Makes A Person Facepalm
+💗 /pout  :  To Pout
+💗 /wink  :  To Wink
+💗 /smile : To Smile
+💗 /blush : To Blush
+🍀 /smug  : To Smug To A Person
+🍀 /happy : To Show you're Happy
+🍀 /stare : To Stare At A Person
+🍀 /dance : To Dance With Anyone
+🎐 /shrug : To Shrug A Person
+🎐 /think : To Show You're Thinking
+🎐 /bored : To Show You're Bored Rn
+🎐 /sleep : To Show You're Sleepy
+🎗️ /highfive : To Highfive A Person
+🎗️ /thumbsup : To Thumbsup A Person
+🎗️ /wave     : To Wave Hand To A Person
+🎗️ /facepalm : To Makes A Person Facepalm
+
+🥀 /cute :  To Say Me Cute
+🥀 /waifu : To Send Random Waifu Image
 🐱 /nekogirl : To Get Random Cat girls wall.
 😼 /nekoboy  : To Get Random Cat boys wall.
-🎈 /waifu : To Send Random Waifu Image
-🎈 /kitsune : To Send Random Kitsune Image
+👘 /kitsune : To Send Random Kitsune Image
 """
 @bot.on_callback_query(filters.regex("more_help_text"))
 async def helpmore(_, query: CallbackQuery):
