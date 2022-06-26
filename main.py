@@ -226,18 +226,19 @@ async def helpback(_, query: CallbackQuery):
            await query.edit_caption(HELP_TEXT,
              reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ᴍᴏʀᴇ❓", callback_data="more_help_text"),
-                InlineKeyboardButton("Try ❔", url=f"https://t.me/+LuNfF7pzIggyNWE1")]]))
+                InlineKeyboardButton("About❔", callback_data="about_back")]]))
 
 
 ABOUT_TEXT = """
 ╔═════(༻❛☉❟༺)═════╗
-╟𝙑𝙚𝙧𝙨𝙞𝙤𝙣⌱ 7.D3
-╟𝙈𝙖𝙙𝙚 𝙗𝙮⌱『𝓛𝓸𝓻𝓭 𝕯𝕾𝕻 𝟑 』
-╟𓆩⌬𓆪 𝙐𝘾𝙊⌱ @A_inviteLink
-╟𝙀𝙧𝙧𝙤𝙧? ⌱ @UCO404bot
+╟Version ⌱ 7.E3
+╟©️ UCO𓆩⌬𓆪 @A_inviteLink
+╟Staff ⌱ @Schwi_bots
 ╟𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩 ⌱ @C2_Probot
 ╟𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩 ⌱ @Schwi_Musicbot
 ╚═════(༻❛☉❟༺)═════╝
+Always open for new ideas and innovations.
+All rights reserved.
 """
 
 @bot.on_callback_query(filters.regex("about_back"))
