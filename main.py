@@ -27,10 +27,6 @@ buttons = [
         InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton("Onii Chan", url=f"https://t.me/Lord_DSP_3"),
-        InlineKeyboardButton("Schwi𝄞", url=f"https://t.me/Schwi_Musicbot"),
-    ],
-    [
         InlineKeyboardButton("ANIME CHAT ?", url=f"https://t.me/+LuNfF7pzIggyNWE1"),
     ],
  ]
