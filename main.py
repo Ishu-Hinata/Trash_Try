@@ -206,7 +206,8 @@ MORE_HELP_TEXT = """
 🎈 /highfive : To Highfive A Person
 🎈 /thumbsup : To Thumbsup A Person
 🎈 /facepalm : To Makes A Person Facepalm
-🎈 /neko : To Get Random Neko quotes
+🐱 /nekogirl : To Get Random Cat girls wall.
+😼 /nekoboy  : To Get Random Cat boys wall.
 🎈 /waifu : To Send Random Waifu Image
 🎈 /kitsune : To Send Random Kitsune Image
 """
@@ -823,8 +824,8 @@ def sleep(_, message):
         z = ". . . (∪｡∪)｡｡｡zzzZZ"
         message.reply_text(z)
 
-@bot.on_message(filters.command("neko")& filters.group)
-def neko(_, message):
+@bot.on_message(filters.command("nekogirl")& filters.group)
+def nekogirl(_, message):
     url = "https://nekos.best/api/v2/neko"
     r = requests.get(url)
     e = r.json()
