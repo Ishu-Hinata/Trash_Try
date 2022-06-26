@@ -113,6 +113,27 @@ RANDOM = [
     "https://telegra.ph/file/0e0b7d5992385009f281d.jpg",
 ]
 
+MALENEKO = [
+    "https://telegra.ph/file/dee6bb78f44e4c6984acb.jpg",
+    "https://telegra.ph/file/56c3292abaf8b7d4bd52f.jpg",
+    "https://telegra.ph/file/d3e7ef3734039b5968fa4.jpg",
+    "https://telegra.ph/file/4737f8426eb74742da149.jpg",
+    "https://telegra.ph/file/f70c6a17344569a150543.jpg",
+    "https://telegra.ph/file/803ad8d1925b2dfd53f2a.jpg",
+    "https://telegra.ph/file/c75608abd53e56800c619.jpg",
+    "https://telegra.ph/file/9f4d71e644c7988be4123.jpg",
+    "https://telegra.ph/file/552f3b6f0166928e0bae9.jpg",
+    "https://telegra.ph/file/32b74701bac5db4c9ff9f.jpg",
+    "https://telegra.ph/file/3a347fc12b9696b735cb6.jpg",
+    "https://telegra.ph/file/6c57c3c79df6f2714c645.jpg",
+    "https://telegra.ph/file/b1193a34f84faf82efca8.jpg",
+    "https://telegra.ph/file/3f95c6e8ccf15b67d4574.jpg",
+    "https://telegra.ph/file/cd1c1f7b8d2e8cb3461eb.jpg",
+    "https://telegra.ph/file/e143af6cfd3dff4aa4910.jpg",
+
+]
+
+
 @bot.on_message(filters.command(["start","help"])& filters.private)
 async def start(_, m):
        image = random.choice(RANDOM)
