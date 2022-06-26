@@ -834,7 +834,12 @@ def nekogirl(_, message):
     ke = random.choice(neko_text)
     message.reply_photo(photo=NEKO_IMG, caption=ke.format(name))
 
-
+@bot.on_message(filters.command("nekoboy")& filters.group)
+def nekoboy(_, message):
+    image = random.choice(MALENEKO)
+    name = message.from_user.mention
+    ke = random.choice(neko_text)
+    message.reply_photo(photo=image, caption=ke.format(name))
 
 @bot.on_message(filters.command(["ping"])) 
 async def ping(_, message: Message):
