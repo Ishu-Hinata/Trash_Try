@@ -853,7 +853,7 @@ def waifu(_, message):
 @bot.on_message(filters.command("husbando")& filters.group)
 def husbando(_, message):
     name = message.from_user.mention         
-    url = f"https://nekos.best/api/v2/husbando"
+    url = f"https://www.peakpx.com/en/search?q=husbando"
     r = requests.get(url)
     e = r.json()
     husbo = e["results"][0]["url"]
