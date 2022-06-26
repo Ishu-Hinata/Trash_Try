@@ -122,7 +122,7 @@ MALENEKO = [
     "https://telegra.ph/file/803ad8d1925b2dfd53f2a.jpg",
     "https://telegra.ph/file/c75608abd53e56800c619.jpg",
     "https://telegra.ph/file/9f4d71e644c7988be4123.jpg",
-    "https://telegra.ph/file/552f3b6f0166928e0bae9.jpg",
+    "https:",
     "https://telegra.ph/file/32b74701bac5db4c9ff9f.jpg",
     "https://telegra.ph/file/3a347fc12b9696b735cb6.jpg",
     "https://telegra.ph/file/6c57c3c79df6f2714c645.jpg",
