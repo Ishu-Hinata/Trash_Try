@@ -843,13 +843,24 @@ def cute(_, message):
 
 @bot.on_message(filters.command("waifu")& filters.group)
 def waifu(_, message):
-    name = message.from_user.first_name         
+    name = message.from_user.mention         
     url = f"https://nekos.best/api/v2/waifu"
     r = requests.get(url)
     e = r.json()
     waifume = e["results"][0]["url"]
     message.reply_photo(
-        waifume, caption="Waifu for {}".format(name)
+        waifume, caption="Waifu for {}-kun".format(name)
+    )
+
+@bot.on_message(filters.command("husbando")& filters.group)
+def husbando(_, message):
+    name = message.from_user.mention         
+    url = f"https://nekos.best/api/v2/husbando"
+    r = requests.get(url)
+    e = r.json()
+    husbo = e["results"][0]["url"]
+    message.reply_photo(
+        husbo, caption="Husbando for {}-Chan".format(name)
     )
 
 @bot.on_message(filters.command("kitsune")& filters.group)
