@@ -198,7 +198,8 @@ async def start(_, m):
              reply_markup=InlineKeyboardMarkup(buttons))
 
 HELP_TEXT = """
-**Anime Themed SFW:**
+All Commands can be used with: /
+[Only works in group](https://t.me/+LuNfF7pzIggyNWE1)
 
 💓 /pat : To Pat A Person
 💓 /hug : To Hug A Person
@@ -213,7 +214,8 @@ HELP_TEXT = """
 💓 /cuddle : To Cuddle A Person
 💓 /baka : To Say A Person Baka
 
-**Hit the More button below to explore more Cammands ^_^**
+**Touch my b..bu😳
+BUTTONS Below to explore more cammands!😹**
 """
 
 @bot.on_callback_query(filters.regex("help_back"))
