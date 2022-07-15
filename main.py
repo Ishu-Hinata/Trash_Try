@@ -938,6 +938,6 @@ bot.run()
 with bot:
          bot.send_message(f"@{SUPPORT}", f"Hello there I'm Online!\nPyroVersion: {pyro}")
 
-@app.on_message(filters.command(["dsp", prefix=="+"]))
+@bot.on_message(filters.command(["dsp", prefix=="+"]))
 async def on_private_help(_, message: Message):
     return await message.reply_text(f"✅ ALIVE.")
